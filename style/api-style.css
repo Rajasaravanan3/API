@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5ab9b9;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    position: relative;
+}
+.titleDiv{
+    width: 80%;
+    display: grid;
+    place-content: center;
+}
+.tableDiv{
+    height: 85%;
+    width: 80%;
+    margin: 0px 30px 30px 30px;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 10px 0px;
+}
+.logoutDiv{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+#logoutButton{
+    height: 30px;
+    width: 90px;
+    background-color: #7547ec;
+    border-radius: 7px;
+    border: none;
+}
+.save, .edit{
+    background-color: #A8DF8E;
+    width: 54px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.delete, .cancel{
+    background-color: #EF6262;
+    border-radius: 5px;
+}
+#logoutText{
+    margin-right: 10px;
+    color: #ffffff;
+}
+.fa-solid{
+    color: #ffffff;
+}
+.records{
+    width: 80%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#clear{
+    background-color: #F94C10;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+#records_count{
+    font-weight: 400;
+}
+.table{
+    padding: 20px;
+    height: 90%;
+    width: 95%;
+    border-radius: 5px;
+    position: relative;
+    color: #ffffff;
+}
+.tableDiv::-webkit-scrollbar{
+    width: 5px;
+    height: 8px;
+}
+.tableDiv::-webkit-scrollbar-thumb{
+    background-color: #202832;
+    border-radius: 10px;
+}
+tbody tr:nth-child(even){
+    background-color: #4e5974;
+}
+tbody tr:nth-child(odd){
+    background-color: #5c7690;
+}
+thead{
+    background-color: #202832;
+    position: sticky;
+    top: -10px;
+}
+tbody{
+    background-color: #44576a;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: none;
+    outline: 0;
+}
+th, td{
+    width: 25%;
+    height: 40px;
+    text-align: center;
+}
+tr{
+    border-bottom: 1px solid #ffffff;
+}
+.avatar{
+    border-radius: 50%;
+}
+.change, #actionheader{
+    padding: 0px 15px;
+}
+.change{
+    align-content: center;
+}
+.nodata_image{
+    height: 250px;
+}
